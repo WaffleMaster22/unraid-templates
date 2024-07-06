@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>PushNote</Name>
-  <Repository>waffle22/pushnote:latest</Repository>
+  <Repository>waffle22/pushnote</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/WaffleMaster22/PushNote</Project>
-  <Overview>PushNote is simple webui for any text/URL that you want to send from your PC to your phone or other device as a notification via Pushover.</Overview>
+  <Overview>A simple web UI that sends any text you input to a notification on your phone via Pushover.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
@@ -17,11 +17,11 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1720291173</DateInstalled>
+  <DateInstalled>1720296132</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>Pushover with user key and app key</Requires>
-  <Config Name="Port" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5555</Config>
+  <Requires/>
   <Config Name="PUSHOVER_TOKEN" Target="PUSHOVER_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUSHOVER_USER_KEY" Target="PUSHOVER_USER_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="WebUI:" Target="5000" Default="5555" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5550</Config>
 </Container>
